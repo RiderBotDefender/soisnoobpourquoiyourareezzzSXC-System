@@ -19,6 +19,7 @@ client.on('message', msg => {
 
 
 client.on('message', msg => {
+  var prefix = "-"
   let short = msg.content.toLowerCase()
 
   let GeneralChannel = server.channels.find("General", "apply")
