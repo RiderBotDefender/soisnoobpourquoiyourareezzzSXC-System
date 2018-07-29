@@ -24,7 +24,7 @@ client.on('message', msg => {
   let GeneralChannel = server.channels.find("General", "apply")
 if (msg.content.startsWith( prefix + "apply")) {
   var args = msg.content.substring(8)
-  msg.guild.channels.get(GeneralChannel).send("http\n SUGGESTION:" + msg.author.username + " suggested the following: " + args + "")
+  msg.guild.channels.get(GeneralChannel).send("  msg.author.username " + " APPLY: " + " args + ")
   msg.delete();
   msg.channel.send("Thx for Apply ادا كنت ممبر فا راح نرفضك لازم تشتري رتبه اول ب كريديتس او فلوس!")
   }
